@@ -1,0 +1,1347 @@
+/* reset css
+------------------------------------------------------
+------------------------------------------------------ */
+body,h1,h2,h3,h4,h5,h6,p,dl,dt,input,select,button,ol,ul,li,textarea,blockquote{
+	margin:0;
+	padding:0;
+	outline:none;
+	border:none;
+	font-style:normal;
+}
+ol,ul{list-style:none;}
+a{text-decoration:none;}
+a:hover{text-decoration: underline;}
+img{border:none;}
+.clearfix:after{display:block;clear:both;overflow:hidden;content:"";}
+.clearfix{zoom:1;}
+.clear{
+	zoom:1;
+	}
+textarea {
+  resize: none; }
+body{
+	font-family:"黑体";
+	font-size:12px;
+}
+/*
+------------------------------------------------------
+content-page
+-----------------------------------------------------*/
+#content-page{
+	width:1279px;
+	height:1262px;
+	margin:auto;
+}
+/*page-top
+---------------------------------------------------*/
+#page-top{
+	height:58px;
+	background:#2189bf;
+	border-bottom:1px solid #4a9fca;
+	position: relative;
+}
+.icon{
+	width:36px;
+	height:36px;
+	background:url(img/bg.png) no-repeat  -79px -0px;
+	float:left;
+	margin:13px 0 0 48px;
+}
+.search{
+	width:312px;
+	height:28px;
+	float:left;
+	margin-top:17px;
+	margin-left:726px;
+	position:relative;
+}
+.searchtext{
+	 width:310px;
+	 height:26px;
+	 border:1px solid #82bcdb;
+	 border-radius:11px 9px;
+	 text-indent: 34px;
+}
+.btn{
+	width:16px;
+	height:16px;
+	position:absolute;
+	left:17px;
+	top:6px;
+	background:url(img/bg.png) -147px -0px;
+}
+.log-in{
+	float:right;
+	width:41px;
+	height:16px;
+	margin-top:23px;
+	margin-right:96px;
+}
+.log-in a{
+	width:15px;
+	height:16px;
+	float:left;
+	display:block;
+	background: url(img/log-in.png) no-repeat;
+}
+.log-in input{
+	color:#fff;
+	width:23px;
+	font-size:12px;
+	margin:2px 0 0 3px;
+	background:none;
+	float:right;
+	cursor:pointer;
+}
+/*
+conten页面内容
+---------------------------------------------------
+---------------------------------------------------
+*/
+ .conten{
+	height:1207px;
+}
+/*personal-menu
+--------------------------------------------------
+--------------------------------------------------*/
+.personal-menu{
+	width:258px;
+	height:1207px;
+	background:#2a2e3d;
+	float:left;
+}
+.head-portarit{
+	width:258px;
+	height:150px;
+}
+.portrait{
+	height:76px;
+	position:relative;
+	margin-bottom:23px;
+}
+.bordecoration{
+	width:56px;
+	height:56px;
+	border:1px solid #d0d0d2;
+	border-radius:50%;
+	float:left;
+	margin:18px 0 0 43px;
+}
+.bordecoration img{
+	width:47px;
+	height:47px;
+	border-radius:50%;
+	vertical-align: center;
+	margin:5px;
+	display:block;
+}
+#name{
+	float:right;
+	width:138px;
+	height:12px;
+	margin:40px 0 0 18px;
+	color:#fff;
+}
+#name a{
+	color:#fff;
+}
+.informa{
+	width:172px;
+	height:28px;
+	margin:23px 56px 0 30px;
+}
+.informa a{
+	color:#4e596b;
+}
+.informa p{
+	float:left;
+	width:85px;
+	height:28px;
+	color:#67778b;
+	text-align: center;
+}
+.borp{
+	border-right:2px solid #323647;
+}
+ .informa span{
+	display:block;
+}
+
+/*菜单栏
+----------------------------------------
+----------------------------------------
+*/
+.menu{
+	height:1042px;
+	font-size:12px;
+}
+.menu li{
+	margin-bottom:36px;
+	background:url(img/背景图/star.png) no-repeat 43px top;
+	height:12px;
+	width:215px;
+	padding-left:70px;
+	cursor:pointer;
+}
+.menu .pershare{background:url(img/背景图/icon-2.png)  no-repeat 43px top;}
+.menu .account{background:url(img/背景图/icon-1.png)  no-repeat 43px top;}
+.menu .pertable{
+	width:192px;
+	height:176px;
+	padding:14px 0 0 66px;
+	background:#383d4e url(img/背景图/icon-5.png) no-repeat 43px 14px;
+	margin-bottom:16px;
+}
+.pertable span{margin-left:4px;color:#fff;}
+.filemenu{
+	width:192px;
+	height:144px;
+    margin-top:20px;
+}
+.filemenu li{
+	height:12px;
+	padding-left:33px;
+	background:url(img/背景图/listfile.png) no-repeat;
+	font-color:#657589;
+	margin-bottom:18px;
+	cursor:pointer;
+}
+.filemenu a{color:#627184;}
+.filemenu .file{
+	width:159px;
+	height:72px;
+	margin-bottom:18px;
+	background:url(img/背景图/listfile2.png) no-repeat;
+	coloe:#fff;
+}
+  #active{color:#fff;background: url(img/背景图/file-2.png) no-repeat 4px top;}
+  #active a{color:#fff;}
+.filemenu .file ul{
+	width:159px;
+	height:43px;
+	margin-top:18px;
+}
+.filemenu .file li{
+	height:12px;
+	background:url(img/背景图/file.png) no-repeat 4px top;
+	padding-left:18px;
+}
+.filemenu .file span{color:#fff;}
+/*-----------------------------------------------------------------
+右边数据视图
+-----------------------------------------------------------------*/
+.rightdata-view{
+	float:right;
+	width:1021px;
+	height:1207px;
+	background:#eeeeed;
+}
+/*头部
+__________________________________________
+_________________________________________*/
+.view-head{
+	background:#fff;
+	height:30px;
+	margin:0;
+	overflow: hidden;
+}
+.view-head a{color:#aaaaaa;}
+.view-head p{
+	width:196px;
+	height:12px;
+	margin:8px 0 0 30px;
+	color: #aaaaaa;
+	font-size:12px;
+}
+.viewsite,.viewchoose,.viewfile,.viewdoc{
+		display:block;
+		float:left;
+		cursor:pointer;
+}
+.viewsite,.viewchoose,.viewfile{
+	position:relative;
+}
+.viewsite:after,.viewchoose:after,.viewfile:after{
+	content: "/";
+	position:absolute;
+	right:0;
+	top:0;
+}
+.viewsite{
+	width:36px;
+}
+.viewchoose{
+	width:60px;
+	padding-left:7px;
+}
+.viewfile{
+	width:45px;
+	padding-left:8px;
+}
+ .view-head .viewdoc{
+	width:36px;
+	padding-left:4px;
+	color: #aec5dc;
+}
+/*---------------------------------
+view内容
+---------------------------------------*/
+.view-content{
+	width:892px;
+	height:1006px;
+	margin-top:19px;
+	margin-left:59px;
+}
+/*--------------------------------------
+搜索栏
+--------------------------------------
+ */
+.search-area{
+	background-color:#fff;
+	height:85px;
+	width:889px;
+	border:1px solid #dddedf;
+	position:relative;
+}
+.search-area form{
+	width:889px;
+	height:85px;
+}
+/*选项
+-----------------------------------
+---------------------------------
+ */
+.chooseoption{
+	width:121px;
+	height:26px;
+	float:left;
+	margin:14px 38px 0px 30px;
+}
+.chooseoption h2{
+	width:36px;
+	height:12px;
+	float:left;
+	margin-top:8px;
+	color:#b0b0b0;
+	font-size:12px;
+	font-weight:300;
+}
+
+.selectt{
+	width:68px;
+	height:22px;
+	border-top:2px solid;
+	border-bottom:2px solid ;
+	border-left:1px solid;
+	border-right:1px solid;
+	border-color:#cbcbcb;
+	float:right;
+	margin-left:15px;
+	color:#5c5d5d;
+	cursor: pointer;
+	font-size:12px;
+	position:relative;
+}
+.selectt a{
+	display:block;
+	width:9px;
+	height:5px;
+	background:url(img/背景图/btn1.png) no-repeat;
+	position:absolute;
+	left:51px;
+	top:9px;
+}
+.selectt .curselect{
+	width:36px;
+	height:12px;
+	position:absolute;
+	left:10px;
+	top:6px;
+}
+.selectt select{
+	width:68px;
+	height:23px;
+	border:1px solid #cbcbcb;
+	position: absolute;
+	left:0;
+	top:0;
+	background:#fff;
+	opacity:0;
+	filter: alpha(opacity=0);
+	font-size:12px;
+	color:color:#5c5d5d;;
+}
+/*卖卖双方
+--------------------------------------
+----------------------------------
+*/
+.deal{
+	width:187px;
+	height:56px;
+	float:left;
+	margin-top:14px;
+	margin-right:31px;
+	background:url(img/背景图/deal_bg.png) no-repeat right center;
+}
+.buy{
+	width:159px;
+	height:26px;
+	margin-bottom:4px;
+}
+.buy p{
+	width:24px;
+	height:12px;
+	font-weight: 200;
+	float:left;
+	margin-top:8px;
+	margin-right:14px;
+}
+.select-buy{
+	float:left;
+	width:117px;
+	height:22px;
+	border:2px solid #ddddde;
+	position: relative;;
+	cursor: pointer;
+}
+#btn-buy{
+	display:block;
+	width:12px;
+	height:9px;
+	background:url(img/背景图/btn2.png) no-repeat;
+	position:absolute;
+	left:101px;
+	top:6px;
+}
+.select-buy .buyselect{
+	width:95px;
+	height:12px;
+	position:absolute;
+	left:6px;
+	top:6px;
+}
+.select-buy select{
+	width:117px;
+	height:22px;
+	border:2px solid #ddddde;
+	position: absolute;
+	left:0;
+	top:0;
+	background:#fff;
+	opacity:0;
+	filter: alpha(opacity=0);
+	font-size:12px;
+	color:color:#5c5d5d;;
+}
+/*sell
+------------------------------------
+-----------------------------------
+*/
+.sell{
+	width:159px;
+	height:26px;
+}
+.sell p{
+	width:24px;
+	height:12px;
+	font-weight: 200;
+	float:left;
+	margin-top:8px;
+	margin-right:14px;
+}
+.select-sell{
+	float:left;
+	width:117px;
+	height:22px;
+	border:2px solid #ddddde;
+	position: relative;;
+	cursor: pointer;
+}
+#btn-sell{
+	display:block;
+	width:12px;
+	height:9px;
+	background:url(img/背景图/btn2.png) no-repeat;
+	position:absolute;
+	left:101px;
+	top:6px;
+}
+.select-sell .sellselect{
+	width:95px;
+	height:12px;
+	position:absolute;
+	left:6px;
+	top:6px;
+}
+.select-sell select{
+	width:117px;
+	height:22px;
+	border:2px solid #ddddde;
+	position: absolute;
+	left:0;
+	top:0;
+	background:#fff;
+	opacity:0;
+	filter: alpha(opacity=0);
+	font-size:12px;
+	color:color:#5c5d5d;;
+}
+/*route 日期 成交量 人数
+-------------------------------------
+-----------------------------------------
+*/
+.route{
+	width:293px;
+	height:56px;
+	float:left;
+	margin-top:14px;
+	margin-right:28px;
+}
+/*date
+------------------------------
+----------------------------------------*/
+.date{
+	width:161px;
+	height:26px;
+	bottom-bottom:4px;
+	float:left;
+	margin-right:10px;
+}
+.date p{
+	width:24px;
+	height:12px;
+	float:left;
+	margin:8px 16px 6px 0;
+	color: #b7b7b7;
+}
+#dat{
+	width:117px;
+	height:22px;
+	border:2px solid #cacbcb;
+	float: right;
+	text-indent: 7px;
+	color:#5c5d5d;
+}
+/* 耗时
+*/
+.sptime{
+	width:122px;
+	height:26px;
+	float:left;
+}
+.sptime p{
+	width:36px;
+	height:12px;
+	float:left;
+	margin-top:9px;
+	margin-left:5px;
+	margin-right:10px;
+}
+.sptime-select{
+	float:left;
+	width:67px;
+	height:22px;
+	border:2px solid  #c7c7c8;
+	position: relative;;
+	cursor: pointer;
+	color:#494949;
+	float:left;
+}
+#btn-sptime{
+	display:block;
+	width:9px;
+	height:12px;
+	background:url(img/背景图/btn2.png) no-repeat;
+	position:absolute;
+	left:54px;
+	top:6px;
+}
+.sptime-select .spselect{
+	width:48px;
+	height:12px;
+	display:block;
+	position:absolute;
+	left:6px;
+	top:6px;
+}
+.sptime-select select{
+	width:67px;
+	height:22px;
+	border:2px solid #c7c7c8;
+	position: absolute;
+	left:0;
+	top:0;
+	background:#fff;
+	opacity:0;
+	filter: alpha(opacity:0);
+	font-size:12px;
+	color:color:#5c5d5d;;
+}
+/*number
+*/
+.number{
+	width:293px;
+	height:26px;
+	float:left;
+	margin-top:4px;
+}
+.personumer{
+	width:111px;
+	float:left;
+}
+.personumer p{
+	width:24px;
+	float:left;
+	margin-top:8px;
+	margin-right:16px;
+	color:#b7b7b7;
+}
+.perso-select{
+	float:left;
+	width:67px;
+	height:22px;
+	border:2px solid #dddede;
+	position:relative;
+}
+.perso-select a{
+	width:9px;
+	height: 12px;
+	position:absolute;
+	left:48px;
+	top:6px;
+	background:url(img/背景图/btn2.png) no-repeat;
+}
+.perso-select span{
+	width:41px;
+	position: absolute;
+	left:7px;
+	top:6px;
+}
+.perso-select select{
+	width:67px;
+	height:22px;
+	border:2px;
+	background:#fff;
+	opacity:0;
+	filter: alpha(opacity:0);
+	position:absolute;
+	left: 0;
+	top: 0;
+}
+.perso-select option{
+	background:#e1e1e2;
+}
+
+
+.whatitem{
+	width:168px;
+	height: 26px;
+	float:left;
+	margin-left:14px;
+}
+.whatitem p{
+	width:36px;
+	float:left;
+	margin-top:9px;
+	margin-right:10px;
+	color:#cfcfcf;
+}
+.whoitem-select{
+	width:118px;
+	height:22px;
+	border:2px solid #dddede;
+	float:left;
+	position: relative;
+}
+.whoitem-select a{
+	width:9px;
+	height: 12px;
+	position:absolute;
+	left:105px;
+	top:6px;
+	background:url(img/背景图/btn2.png) no-repeat;
+}
+.whoitem-select span{
+	width:31px;
+	position: absolute;
+	left:8px;
+	top:6px;
+}
+.whoitem-select select{
+	width:168px;
+	height:22px;
+	border:2px;
+	background:#fff;
+	opacity:0;
+	filter: alpha(opacity:0);
+	position:absolute;
+	left: 0;
+	top: 0;
+}
+.whoitem-select option{
+	background:#e1e1e2;
+}
+
+.search-btn{
+	width:51px;
+	height:25px;
+	background:#388ac1;
+	float:left;
+	margin-top:31px;
+	color:#fff;
+	font-size:12px;
+	text-align:center;
+	border-radius:1px;
+}
+/*------------------------------
+history
+------------------------------------------*/
+.history{
+	width:891px;
+	height:65px;
+	margin-top:8px;
+	font-family:"微软雅黑";
+}
+.btn-left,.btn-right,.his-area,.click-search{
+	float:left;
+}
+.btn-left,.btn-right,.click-search{
+	border:1px solid #d9dbdd;
+	background: #fff;
+}
+.btn-left,.btn-right{
+	width:29px;
+	height:63px;
+	position:relative;
+}
+.btn-left:after,.btn-right:after{
+	content:"<";
+	font-size:17px;
+	color:#b0b0af;
+	display:block;
+	position:absolute;
+	left:10px;
+	top:24px;
+}
+ .history .btn-right:after{
+ 	content:">";
+ }
+.his-area{
+	margin-left:4px;
+	margin-right:4px;
+	overflow:hidden;
+	width:686px;
+	height:65px;
+}
+.his-area li{
+	width:109px;
+	height:63px;
+	border: 1px solid #d9dbdd;
+	float:left;
+	margin-right:4px;
+	position:relative;
+	background:#fff;
+}
+.his-area a{
+	text-decoration: none;
+}
+ .his-area .last{
+	margin-right:0;
+}
+.his-area .active{
+	border-top:4px solid #4389c9;
+	height:60px;
+}
+.his-area h3{
+	width:52px;
+	 height:9px;
+	line-height:9px;
+	font-size: 12px;
+	color:#5c5d5d;
+	margin:15px auto 13px 30px;
+	font-family: "Vani";
+}
+.his-area p{
+	width:45px;
+	height: 16px;
+	font-size:16px;
+	color:#ec6500;
+	margin-left:40px;
+}
+.his-area p:before{
+	content:"￥";
+	display:block;
+	height:11px;
+	line-height:11px;
+	width:10px;
+	font-size:10px;
+	color:#abaaaa;
+	position: absolute;
+	left:28px;
+	top:42px;
+}
+/*click-btn
+*/
+.click-search{
+	width:129px;
+	height:63px;
+	margin-left:4px;
+	border:1px solid #cacdd0;
+	position:relative;
+}
+.click-search a{
+	width:91px;
+	height: 31px;
+	display:block;
+	position:absolute;
+	left:19px;
+	top:18px;
+}
+.click-search img{
+	width:32px;
+	height:31px;
+	float:left;
+	margin-right:11px;
+}
+.click-search p{
+	width:48px;
+	height:31px;
+	line-height:31px;
+	color:#535353;
+	font-size:12px;
+	float:left;
+}
+/*sumary 4月统计
+*/
+.summary{
+	width:892px;
+	height:90px;
+	margin-top:21px;
+}
+.summary h2{
+	height:13px;
+	font-size:12px;
+	line-height:13px;
+	color:#585858;
+	text-indent: 1px;
+	margin-bottom:4px;
+}
+/*list-summary
+---------------------------------------------
+-------------------------------------------*/
+.list-summary{
+	width:892px;
+	height:73px;
+	overflow: hidden;
+}
+.list-summary li{
+	width:196px;
+	height:69px;
+	border:2px solid #d8d8db;
+	float:left;
+	margin-right:28px;
+	position:relative;;
+}
+.list-summary .sumarry4{
+	margin-right:0;
+	border-left:4px solid #e2cd46;
+}
+
+.list-summary .sumarry3{
+	border-left:4px solid #d04b37;
+}
+.list-summary .sumarry2{
+	border-left:4px solid #388bc2;
+}
+.list-summary .sumarry1{
+	border-left:4px solid #43b29e;
+}
+.list-summary .num{
+	width:35px;
+	height:9px;
+	line-height:9px;
+	position:absolute;
+	left:12px;
+	top:22px;
+	color:#5c5d5d;
+	cursor:pointer;
+	text-decoration:none;
+}
+.list-summary p{
+	height:10px;
+	width: 30px
+	line-height:10px;
+	color:#bdbdbd;
+	font-size:10px;
+	position:absolute;
+	left:12px;
+	top:45px;
+}
+.list-summary .set{
+	display:block;
+	width:61px;
+	height:47px;
+	position: absolute;
+	left:125px;
+	top:13px;
+}
+.sumarry4 .set{
+	background:#e2cd46;
+}
+.sumarry3 .set{
+	background: #d04b37;
+}
+.sumarry2 .set{
+	background:#388bc2;
+}
+.sumarry1 .set{
+	background:#43b29e;
+}
+/*---------------------------------------
+具体项目及负责人facitem
+-------------------------------------*/
+.factitem{
+	width:892px;
+	height:358px;
+	margin-top:12px;
+	overflow:hidden;
+	font-family:"微软雅黑";
+
+}
+.factable,.factper{
+    	border:2px solid #cfd2d5;
+    	background:#fff;
+    	border-radius:5px;
+}
+/*factable
+-------------------------------------
+---------------------------------------*/
+.factable{
+	width:528px;
+	height:354px;
+	float:left;
+}
+.factable .tablehead{
+	width:528px;
+}
+.day{
+	width:441px;
+	height:26px;
+	margin-top:12px;
+	margin-left:19px;
+	overflow:hidden;
+}
+.day li{
+	width:86px;
+	height:26px;
+	line-height:26px;
+	float:left;
+	margin-right:3px;
+	background:#ededf0;
+	text-align: center;
+	border-radius:2px;
+}
+.day a{color:#535353;}
+.day .fi{margin-left:0;}
+.day .dayactive{
+	border-top:2px solid #d7d7d8;
+	border-left:2px solid #d7d7d8;
+	border-right:2px solid #d7d7d8;
+	margin-right:2px;
+	width:82px;
+	height:24px;
+	background:#fff;
+	border-bottom:none;
+ }
+ .day  .la{margin-right: 0;}
+
+.factab{
+	width:487px;
+	height:249px;
+	border:2px solid #d7d7d8;
+	border-radius:3px;
+	margin-left:19px;
+	position: relative;
+}
+.factab img{
+	position:absolute;
+	top:-2px;
+	left:0;
+}
+
+
+
+/*factper
+------------------------------------
+------------------------------------------*/
+.factper{
+	width:348px;
+	height:354px;
+	float: right;
+	color:#b5b5b5;
+}
+.tablehead{
+	width:348px;
+	height:40px;
+	line-height:40px;
+	background:#f3f5f6;
+	text-indent:19px;
+	font-size:12px;
+	border-radius:5px;
+	color:#b5b5b5;
+}
+.factper form{
+	height:298px;
+}
+.factper h4{
+	height:12px;
+	width:24px;
+	line-height:12px;
+	margin:17px 0 7px 51px;
+}
+#fatable{
+	width:60px;
+	height:12px;
+	line-height:12px;
+	color: #535353;
+	margin-left:51px;
+	margin-bottom:9px;
+}
+.litable{
+	width:280px;
+	height:43px;
+	border-top:1px solid #e7e8e7;
+	border-bottom:1px solid #e7e8e7;
+	margin-left:35px;
+}
+.litable p{
+	float:left;
+	height:43px;
+	width:185px;
+	position:relative;
+}
+.litable .valu{
+	border-right:1px solid #e7e8e7;
+	width:94px;
+}
+.litable .valu span{left:14px;}
+.litable span{
+	position:absolute;
+	left:14px;
+	top:3px;
+	width:37px;
+	height:13px;
+	line-height: 13px;
+	display:block;
+}
+#price,#manage{
+	position:absolute;
+	top:25px;
+	height:11px;
+	line-height: 11px;
+	color:#727272;
+}
+/*详细描述
+----------------------------
+----------------------------------*/
+.factper .hint{
+	height:12px;
+	width:48px;
+	margin:4px 0 7px 49pxpx;
+}
+#fuactual{
+	font-color:#a5a5a5;
+	height:122px;
+	width:280px;
+	border-bottom:1px solid #e7e7e7;
+	text-indent:16px;
+	margin-left:49px;
+	overflow:hidden;
+}
+.factsubmit{
+	width:278px;
+	height:25px;
+	overflow:hidden;
+	margin-top:5px;
+	margin-left:38px;
+	position: relative;
+}
+.factsubmit input{
+		float:left;
+		margin-top:6px;
+}
+.factsubmit .radi{opacity:0;fliter:alpha(opacity:0);}
+.factsubmit p{
+	float:left;
+	width:70px;
+	margin:6px 133px 0 8px;
+}
+
+.factsubmit .search-btn{
+	float:right;
+	margin:0;
+}
+.factsubmit .styl{
+	position:absolute;
+	left:0;
+	top:6px;
+	width:14px;
+	height:13px;
+}
+#record{
+	width:403px;
+	height:185px;
+	margin-top:28px ;
+	margin-left:36px;
+	border-collapse:collapse;
+	font-family: "宋体";
+}
+.reactive{background:#f4f5f6;}
+table,td{
+	border:1px solid #e7e7e7;
+	text-align:center;
+	vertical-align:center;
+	padding:0;
+}
+#record a{
+	text-decoration:none;
+	color:#595a5b;
+}
+#record td:hover{
+	background:#f4f5f6;
+}
+/*-----------------------------------------
+日历和汽车calender-industry
+---------------------------------------------------*/
+.calender-industry{
+	width:892px;
+	height:358px;
+	overflow:hidden;
+	margin-top: 7px;
+}
+.calender,.industry{
+	background:#fff;
+	border:2px solid #e7e7e7;
+	height:354px;
+	border-radius:5px;
+	height:358px;
+}
+.calender{
+	width:348px;
+	float:left;
+}
+.calend-btn{
+	width:307px;
+	height:23px;
+	margin-top:9px;
+	margin-left:21px;
+	overflow:hidden;
+}
+.calend-btn div {
+	float:left;
+	width:72px;
+	height:19px;
+	border:2px solid #e7e7e7;
+	color:#636363;
+	margin-right:5px;
+	position:relative;
+}
+.calend-btn .year-select{width:61px;}
+.year-select a,.month-select a,.label-select a{
+	position:absolute;
+	display:block;
+	width:18px;
+	height: 19px;
+	right:0;
+	top:0;
+	background:url(img/背景图/month-btn.png) no-repeat;
+}
+.year-select p,.month-select p,.label-select p{
+	height:19px;
+	line-height:19px;
+	text-indent:4px;
+}
+.year-select select,.month-select select,.label-select select{
+	position:absolute;
+	left:0;
+	top:0;
+	width:72px;
+	height:23px;
+	background:#fff;
+	opacity:0;
+	filter:alpha(opacity:0);
+}
+
+
+.calend-btn .returnbtn{
+	float:left;
+	display:block;
+	width:53px;
+	height:19px;
+	line-height:19px;
+	padding-left:8px;
+	border:2px solid #e7e7e7;
+	color:#636363;
+	text-decoration:none;
+	text-indent:
+}
+
+/*日历
+-------------------------------------------------
+-------------------------------------------------------*/
+.calender-table{
+	width:311px;
+	height:251px;
+	border-collapse:collapse;
+	border-spacing:0;
+	color:#494949;
+	margin-top:9px;
+	margin-left:19px;
+	border:none;
+}
+.calender-table th{
+	width:42px;
+	height:32px;
+	border-top:2px solid #a9cfec;
+	border-bottom:2px solid #e1e1e2;
+	border-left:none;
+	border-right:none;
+}
+.calender-table td{
+	border:none;
+}
+.calender-table th,.calender-table td{
+	width:42px;
+	height:42px;
+}
+.c-border{
+	width:100%;
+	position: relative;
+}
+.c-border:hover{
+	border:2px solid #f7d564;
+	width:38px;
+	height:38px;
+}
+.c-border .c-content{
+	width:36px;
+	height:24px;
+	display:block;
+	margin-top:6px;
+	margin-left:2px;
+	color:#494949;
+	text-decoration:none;
+	text-align:center;
+}
+.almanic,.daynum{
+	width:36px;
+	height:12px;
+	display:block;
+	text-align:center;
+}
+.blk:hover{border-color:#fff;}
+.colo{color:#cd3539;}
+/*industry
+----------------------------------------------
+--------------------------------------------------------*/
+.industry{
+	width:529px;
+	float:right;
+}
+.industry .tablehead{
+	width:529px;
+}
+#search-data{
+	border-collapse: collapse;
+	width:451px;
+	height:275px;
+	margin-left:39px;
+	margin-top:17px;
+	color:#5c5d5d;
+	border-bottom:none;
+	position: relative;
+}
+#search-data tr:hover{background:#f3f5f6}
+#search-data a {
+   text-decoration: none;
+  color:#5c5d5d;
+}
+table,th,td{
+	border:2px solid #e7e7e7;
+	padding:0;
+	text-align: center;
+	vertical-align:center;
+	cursor:pointer;
+}
+.no-line{
+	border-bottom:none;
+}
+.ranking{
+	width:69px;
+	height:30px;
+}
+.brand{
+	width:93px;
+}
+.data{
+	width:293px;
+	position: relative;
+}
+.data p{position: absolute;left:30px; top:6px;}
+.trsty{
+	background:#f4f5f7;
+}
+#search-data th{height:27px}
+#search-data td{height:24px}
+
+
+.pos{position: relative;}
+.pos span{
+	width:168px;
+	height:4px ;
+	display:block;
+	background:#dcdcdc;
+	position: absolute;
+	left:103px;
+	top:9px;
+	z-index:1;
+}
+.pos .btf1,.pos .btf2,.pos .btf3,.pos .btf4,.pos .btf5,.pos .btf6,.pos .btf7,.pos .btf8,.pos .btf9,.pos .btf10{
+	height:3px;
+	display:block;
+	position: absolute;
+	left:103px;
+	top:9px;
+	z-index:2;
+}
+.pos .btf1,.pos .btf2{background:#ec6d51}
+.pos .btf3,.pos .btf4,.pos .btf5,.pos .btf6,.pos .btf7,.pos .btf8,.pos .btf9,.pos .btf10{
+	background: #7fcbf0;
+}
+.pos .btf1{width:142px;}
+.pos .btf2{width:122px;}
+.pos .btf3{width: 105px;}
+.pos .btf4{width: 98px}
+.pos .btf5{width: 96px}
+.pos .btf6{width: 80px}
+.pos .btf7{width: 74px}
+.pos .btf8{width: 64px}
+.pos .btf9{width: 60px}
+.pos .btf10{width: 55px}
+
+.pos p{
+	width:60px;
+	height:12px;
+	line-height:12px;
+	position: absolute;
+	left:11px ;
+	top:8px;
+}
+
+
+
+
+
+
+
+

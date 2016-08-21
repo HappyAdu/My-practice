@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>个人首页-校园说-交流干货，分享人生</title>
+	<meta charset="utf-8"/>
+	<meta name="keywords" content="校园说 校园社交 勤奋蜂 重邮创业 校园知识 校园经验"/>
+	<meta name="description" content="大学生精英社交 	大学生知识经验分享	校园在行		竞赛 考研 留学 逆袭	转专业"/>
+	<link rel="stylesheet" href="release_Talking.css">
+</head>
+<body>
+	<div id="header">
+		<div class="index clearfix">
+			<div class="home">
+				<a href="#" class="clearfix">
+					<i class="home-page"></i>
+					<span>首页</span>
+				</a>
+			</div>
+			<ul>
+				<li>
+					<a href="#" target="_blank">什么是校园说？</a>
+				</li>
+				<li class="cut"></li>
+				<li class="LogoIn">
+					<a href="#"  target="_blank">登录</a>/<a href="#"  target="_blank">注册</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="content_naver" class="clearfix">
+			<div class="whic_sch clearfix">
+				<a href="#"><img src="img/logo.png" alt="campussay-logo"/></a>
+				<div class="choose">
+					<h1 id="sch">重庆邮电大学</h1>
+					<button id="turn">切换学校</button>
+				</div>
+			</div>
+			<div class="naver">
+				<a href="javascript:;" class="butn">
+					 	<h2>talking分类</h2>
+					 	<ul class="menu">
+							<li class="active">menu1</li>
+							<li>menu2</li>
+							<li>menu3</li>
+						</ul>
+				</a>
+				<ul class="nav">
+					<li class="no_left"><a href="#" >首页</a></li>
+					<li><a href ="#" target="_blank">听听堂</a></li>
+					<li ><a href ="#" target="_blank" class="precent">发布talking</a></li>
+					<li><a href ="#" target="_blank">我在校园说</a></li>
+				</ul>
+			</div>
+	</div>
+	<div id="content" class="clearfix">
+		<div class="infor">
+			<h1>今天你想说什么？</h1>
+			<form action="active"><!--分为四组，分割线为标志位-->
+				<div class="group"><!--First Group 标题-分类-人数-价格 -->
+					<div class="First clearfix">
+						<label for="headline">标题：
+							<em class="hint1">还可以输入20字</em><!--提示-->
+						</label>
+						<input type="text" id="headline" name="headline" hidefocus="true"/>
+					</div>
+					<div class="First T-first clearfix">
+						<label for="classify">分类：
+							<em class="hint2">如果没有找到你的分类，请选择&ldquo;其他&rdquo;，我们后续将创建对应的分类
+							</em><!--提示-->
+						</label>
+						<div id="classfiy" class="clearfix">
+						<!--代码量太大 换种思路	<div class="cs-select cs-skin-rotate">--><!--完美的下拉菜单 可选择-->
+							<!--	<span class="cs-placeholder">请选择</span>
+								<div class="cs-options">
+									<ul>
+										<li data-option data-value="1" class="cs-selected"><span>考研</span></li>
+										<li data-option data-value="2"><span>留学</span></li>
+										<li data-option data-value="3"><span>考研</span></li>
+										<li data-option data-value="2"><span>留学</span></li>
+										<li data-option data-value="2"><span>留学</span></li>
+									</ul>
+								</div>
+								<select class="cs-select cs-skin-rotate">
+									<option value="" disabled selected>请选择</option>
+									<option value="1">考研</option>
+									<option value="1">留学</option>
+									<option value="2">考研</option>
+									<option value="3">留学</option>
+									<option value="4">留学</option>
+								</select>
+							</div>
+							<div class="cs-select cs-skin-rotate">
+								<span class="cs-placeholder">请选择</span>
+								<div class="cs-options">
+									<ul>
+										<li data-option data-value="1" class="cs-selected"><span>考研</span></li>
+										<li data-option data-value="2"><span>留学</span></li>
+										<li data-option data-value="3"><span>考研</span></li>
+										<li data-option data-value="2"><span>留学</span></li>
+										<li data-option data-value="2"><span>留学</span></li>
+									</ul>
+								</div>
+								<select class="cs-select cs-skin-rotate">
+									<option value="" disabled selected>请选择</option>
+									<option value="1">考研</option>
+									<option value="1">留学</option>
+									<option value="2">考研</option>
+									<option value="3">留学</option>
+									<option value="4">留学</option>
+								</select>
+							</div>
+							<div class="cs-select cs-skin-rotate">
+								<span class="cs-placeholder">请选择</span>
+								<div class="cs-options">
+									<ul>
+										<li data-option data-value="1" class="cs-selected"><span>考研</span></li>
+										<li data-option data-value="2"><span>留学</span></li>
+										<li data-option data-value="3"><span>考研</span></li>
+										<li data-option data-value="2"><span>留学</span></li>
+										<li data-option data-value="2"><span>留学</span></li>
+									</ul>
+								</div>
+								<select class="cs-select cs-skin-rotate">
+									<option value="" disabled selected>请选择</option>
+									<option value="1">考研</option>
+									<option value="1">留学</option>
+									<option value="2">考研</option>
+									<option value="3">留学</option>
+									<option value="4">留学</option>
+								</select>
+							</div> -->
+							<div class="selectt">
+								<a href="javascipt:;">请选择</a>
+								<ul>
+									<li>考研</li>
+									<li>留学</li>
+									<li>考研</li>
+									<li>留学</li>
+									<li>留学</li>
+								</ul>
+							</div>
+							<div class="selectt">
+								<a href="javascipt:;">请选择</a>
+								<ul>
+									<li>考研</li>
+									<li>留学</li>
+									<li>考研</li>
+									<li>留学</li>
+									<li>留学</li>
+								</ul>
+							</div>
+							<div class="selectt">
+								<a href="javascipt:;">请选择</a>
+								<ul>
+									<li>考研</li>
+									<li>留学</li>
+									<li>考研</li>
+									<li>留学</li>
+									<li>留学</li>
+								</ul>
+							</div>
+							<div class="selectt">
+								<a href="javascipt:;">请选择</a>
+								<ul>
+									<li>考研</li>
+									<li>留学</li>
+									<li>考研</li>
+									<li>留学</li>
+									<li>留学</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="First clearfix">
+						<label for="number">人数：
+							<em class="postfix">人</em>
+						</label>
+						<input type="text" id="number" name="number" placeholder="最多参与人数"/>
+					</div>
+					<div class="First clearfix">
+						<label for="price">价格：
+							<em class="postfix">元/人</em>
+						</label>
+						<input type="text" id="price" name="price"/>
+					</div>
+				</div>
+				<div class="group"><!--Second Group 交流方式-联系方式 -->
+					<div class="Second_way clearfix">
+						<label for="modle">交流模式：</label>
+						<div id="modle" class="clearfix">
+							<div class="opt">
+								<input id="c1" class="magic-radio" type="radio" name="modle" checked="checked"/>
+								<label for="c1">线下</label>
+							</div>
+							<div class="opt">
+								<input id="c2" class="magic-radio" type="radio" name="modle"/>
+								<label for="c2">线上</label>
+							</div>
+							<input type="text" placeholder="请填写具体地址\可商议地点" id="actual" />
+						</div>
+					</div>
+					<div class="contact_T">
+						<label for="contact">联系方式：
+							<em class="hint3">交流开始前半小时，系统将您联系方式发送给对方</em>
+						</label>
+						<input type="text" id="contact" placeholder="请填写您的联系方式">
+					</div>
+				</div>
+				<div class="group"><!--Third Group 上传图片 -->
+					<div class="Third clearfix">
+						<label for="photo">上传照片：
+							<em class="hint4">上传一张图片</em>
+						</label>
+						<a href="javascript:;" class="file">
+							<input type="file" name="file" accept="img/png,img/gif" id="photo"/><!--图片-->
+						</a>
+					</div>
+				</div>
+				<div class="group"><!--Fourth Group  交流产品介绍 包括：交流安排，时间，内容，详情等-->
+					<div class="Fourth">
+						<label for="product" class="pro">交流产品介绍：</label>
+						<div class="indu clearfix"><!---->
+							<label>交流安排：</label>
+							<div class="arrange"><!--安排 交流内容 时间-->
+								<label for="time">交流时间：</label>
+								<div id="time"><!--日期-->
+									<input type="text" placeholder="YYY-MM-DD"/>
+									<!--时间节点-->
+									<input type="text" placeholder="上课时间"/>
+									<span>至</span>
+									<input type="text" placeholder="下课时间"/>
+								</div>
+							</div>
+							<div class="arrange"><!--安排 交流内容 具体详情-简介-->
+								<label for="matter">交流内容：</label>
+								<input type="text" id="matter"/><!---->
+							</div>
+						</div>
+						<div class="indu clearfix"><!--交流详情 一大波图标袭来-->
+							<label>交流详情</label>
+							<div id="edit"><!--编辑器-->
+								<div class="ma"><!--划分区域 日后创建js弄下编辑器-->
+									<div id="edui1"></div>
+									<div id="edui2"></div>
+									<div id="edui3"></div>
+									<div id="edui4"></div>
+									<div id="edui5"></div>
+									<div id="edui6"></div>
+									<div id="edui7"></div>
+									<div id="edui8"></div>
+									<div id="edui9"></div>
+									<div id="edui10">
+										<div class="edui10"></div>
+										<div class="edu10"></div>
+									</div>
+									<div id="edui11">
+										<div class="edui11"></div>
+										<div class="edu11"></div>
+									</div>
+									<div id="edui12"></div>
+									<div id="edui13"></div>
+									<div id="edui14"></div>
+									<div id="edui15"></div>
+									<div id="edui16"></div>
+									<div id="edui17"><!--下拉菜单 待完善-->
+										<span></span>
+										<select >
+											<option value="" disabled selected>段落格式</option>
+											<option value="1">Option 1</option>
+											<option value="2">Option 2</option>
+											<option value="3">Option 3</option>
+										</select>
+									</div>
+									<div id="edui18"><!--下拉菜单 待完善-->
+										<span ></span>
+										<select>
+											<option value="" disabled selected>字体
+											</option>
+											<option value="1">Option 1</option>
+											<option value="2">Option 2</option>
+											<option value="3">Option 3</option>
+										</select>
+									</div>
+
+									<div id="ed1"><!--下拉菜单 待完善-->
+									<span ></span>
+									<select>
+										<option value ="" disabled selected>字号</option>
+										<option value ="1">Option 1</option>
+										<option value ="2">Option 2</option>
+										<option value ="3">Option 3</option>
+									</select>
+									</div>
+									<div id="ed2"></div>
+									<div id="ed3"></div>
+									<div id="ed4"></div>
+									<div id="ed5"></div>
+									<div id="ed6"></div>
+									<div id="ed7"></div>
+									<div id="ed8"></div>
+									<div id="ed9"></div>
+									<div id="ed10"></div>
+									<div id="ed11"></div>
+									<div id="ed12"></div>
+									<div id="ed13"></div>
+									<div id="ed14"></div>
+									<div id="ed15"></div>
+								</div>
+								<div class="te">
+									<textarea name="editer" id="editer" cols="30" rows="10" placeholder="不可少于20字"></textarea>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<input type="submit" value="发布" class="re" /><!--发布-->
+			</form>
+		</div>
+		<div class="inductor">
+			<ul>
+				<li>让大家知道你想讲什么吧</li>
+				<li>用几张图表达你的想法吧</li>
+				<li>详细说说吧</li>
+			</ul>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="page-footer clearfix">
+			<div class="footer-left">
+				<a href="#" class="footer_logo"><img src="img/logo_footer.png" alt="campusSay"/></a>
+				<ul>
+					<li class="contact"><a href="#" target="_blank"><img src="img/bolog.png" alt="microblog"/></a></li>
+					<li class="contact"><a href="#" target="_blank"><img src="img/wechat.png" alt="Wechat"/></a></li>
+				</ul>
+			</div>
+			<div class="footer-right">
+				<ul class="clearfix">
+					<li><a href="#" target="_blank">关于校园说</a></li>
+					<li><a href="#" target="_blank">帮助中心</a></li>
+					<li class="f_no"><a href="#" target="_blank">联系我们</a></li>
+				</ul>
+				<p>Copyrights © 2015-2016   CampusSay  Co.,Ltd. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,194 @@
+#box{
+	width:800px;
+	margin:0 auto;
+}
+table.cal{
+	border-collapse: separate;
+	border-spacing:0;
+	text-align:center;
+	color:#333;
+}
+.cal th,.cal td{
+	margin:0;
+	padding:0;
+}
+
+.cal caption{
+	font-size: 1.25em;
+	padding-top:0.692em;
+	padding-bottom: 0.692em;
+	background-color: #d4dde6;
+}
+.cal caption [rel="prev"]{
+	float:left;
+	margin-left:0.2em;
+}
+.cal caption [rel="next"]{
+	float:right;
+	margin-right:0.2em;
+}
+
+.cal caption a:link,.cal caption  a:visited{
+	text-decoration:none;
+	color:#333;
+	padding:0 0.2em;
+}
+.cal caption a:hover,.cal caption a:active,.cal caption a:a:focus{
+	background-color:#6d8ab7;
+}
+
+
+.cal thead th{
+	background-color: #d4dde6;
+	border-bottom:1px solid #a9bacb;
+	font-size: 0.875em;
+}
+.cal tbody {
+	color:#a4a4a4;
+	text-shadow:1px 1px 1px #fff;
+	background-color:#d0d9e2;
+}
+
+.cal tbody td{
+	border-top:1px solid #e0e0e1;
+	border-right:1px solid #9f9fa1;
+	border-left:1px solid #dfdfe0;
+	border-bottom:1px solid #acacad;
+}
+
+.cal tbody a{
+	display:block;
+	text-decoration: none;
+	color:#333;
+	background-color:#c0c8d2;
+	font-weight:bold;
+	padding:0.385em 0.692em 0.308em ;
+}
+
+.cal tbody a:hover,
+.cal tbody a:focus,
+.cal tbody a:active,
+.cal tbody .selected a:link,
+.cal tbody .selected a:visited,
+.cal tbody .selected a:hover,
+.cal tbody .selected a:focus,
+.cal tbody .selected a:active,{
+	background-color:#6d8ab7;
+	color:#fff;
+	text-shadow:1px 1px 2px #22456b;
+}
+
+.cal tbody td:hover,
+.cal tbody td.selected{
+	border-top:1px solid #2a3647;
+	border-right:1px solid #465977;
+	border-bottom:1px solid #576e92;
+	border-left:1px solid #466080;
+}
+
+/* Default custom select styles */
+div.cs-select {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	text-align: left;
+	background: #f7f7f7;
+	z-index: 100;
+	width: 100%;
+	max-width: 500px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div.cs-select:focus {
+	outline: none; /* For better accessibility add a style for this in your skin */
+}
+
+.cs-select select {
+	display: none;
+}
+
+.cs-select span {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	padding: 1em;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* Placeholder and selected option */
+.cs-select > span {
+	padding-right: 3em;
+}
+
+.cs-select > span::after,
+.cs-select .cs-selected span::after {
+	speak: none;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.cs-select > span::after {
+	content: '\25BE';
+	right: 1em;
+}
+
+.cs-select .cs-selected span::after {
+	content: '\2713';
+	margin-left: 1em;
+}
+
+.cs-select.cs-active > span::after {
+	-webkit-transform: translateY(-50%) rotate(180deg);
+	transform: translateY(-50%) rotate(180deg);
+}
+
+/* Options */
+.cs-select .cs-options {
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	background: #fff;
+	visibility: hidden;
+}
+
+.cs-select.cs-active .cs-options {
+	visibility: visible;
+}
+
+.cs-select ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.cs-select ul span {
+	padding: 1em;
+}
+
+.cs-select ul li.cs-focus span {
+	background-color: #f0f0f0;
+	border-right:2px solid #07edcc;
+}
+
+/* Optgroup and optgroup label */
+.cs-select li.cs-optgroup ul {
+	padding-left: 1em;
+}
+
+.cs-select li.cs-optgroup > span {
+	cursor: default;
+}
+
+
